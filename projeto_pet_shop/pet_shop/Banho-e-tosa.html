@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Banho e tosa - Meu amigo cão</title>
+<!--fonte do google-->
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa" rel="stylesheet">
+<style>
+    *
+    {
+        font-family: 'Comfortaa';
+    }
+    a
+    {
+        text-decoration: none;
+        color: rgb(207, 127, 7);
+    }
+    a:hover
+    {
+        background-color:rgb(140, 3, 3);
+        color: white;
+    }
+</style>
+</head>
+
+<body>
+<a href="index.html">Home</a>
+<h1> Agendamento para banho e tosa </h1>
+<h2> Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+
+<form method="post" id="contato" action="obrigado.html">
+<fieldset id="ident_dono">
+    <legend>Identificação do dono do animal</legend>
+
+    <p><label for="nome_dono">Nome:</label> <input type="text" name="nome_dono" id="nome_dono" size = "50" placeholder="Digite o nome completo do dono do animal"/></p>
+
+    <p><label for="endereco">Endereço:</label> <input type="text" name="endereco" id="endereco" size = "80" placeholder="Digite o endereço"/></p>
+
+    <p><label for="cep">CEP:</label> <input type="text" name="cep" id="cep"  size = "10"  placeholder="XXXXX-XXX"/></p>
+
+    <p><label for="email_dono">Email:</label> <input type="email" name="email_dono" id="email_dono" size = "80"  placeholder="Digite o endereço de email"> </p> 
+
+    <p><label for="tel_dono">Tel/Cel:</label> <input type="text" name="tel_dono" id="tel_dono" size = "12" placeholder="99 99999-9999"/></p>
+
+    <p><label for="nome_animal">Nome:</label> <input type="text" name="nome_animal" id="nome_animal"  size = "25"  placeholder="Digite o nome do animal"/></p>
+
+</fieldset>
+
+<fieldset id="ident_animal">
+    <legend>Identificação do animal</legend>
+    <p><label for="nome_animal">Nome:</label> <input type="text" name="nome_animal" id="nome_animal" size="40" placeholder="Digite o nome do seu pet"/></p>
+    <p>
+        <label for="porte_animal">Porte do cão: </label> 
+
+        <input type="radio" id="porte_animal" name="porte_animal" value="porte_animal"> <label for="porte_animal">Pequeno</label> 
+
+        <input type="radio" id="porte_animal" name="porte_animal" value="porte_animal"> <label for="porte_animal">Médio</label>
+
+        <input type="radio" id="porte_animal" name="porte_animal" value="porte_animal"> <label for="porte_animal">Grande</label>
+    </p>
+    <p>
+        Tipo de tosa:
+        <select name="tipo_tosa" id="tipo_tosa">
+            <option value="">Nenhuma</option>
+            <option value="padrao">Tosa Padrão</option>
+            <option value="higienica">Tosa Higiênica</option>
+            <option value="tesoura">Tosa na Tesoura</option>
+            <option value="raca">Tosa da Raça</option>
+            <option value="bebe">Tosa Bebê</option>
+        </select>
+    </p>
+    <p>
+        <label for="observacoes">Observações: </label>
+        <textarea name="observacoes" id="observacoes" cols="20" rows="4">Digite alguma informação do seu animal</textarea>
+    </p>
+</fieldset>
+</form>
+<p><input type="submit" value="Enviar"></p>
+</body>
+</html>
