@@ -27,7 +27,7 @@ $enviar= $_POST["enviar"];
 
 if ($enviar=="enviar")
 {
-    echo " <br> confirmação bem sucedida! <br>";
+    echo " <br> Horário agendado com sucesso! <br>";
     
 }
 
