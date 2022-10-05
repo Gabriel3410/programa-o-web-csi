@@ -39,10 +39,44 @@
         padding: 20px 0 0 ;
         text-align: center;
     }
-    ul
-    [
-        text-decoration:none
-    ]
+    ul li
+    {
+        list-style-type: none;
+        list-style-image: url(multimidia/ossinho.png);
+        list-style-position: inside;
+        margin: 30px 0;
+    }
+    dt
+    {
+        color: #ffffff;
+        background-color: #c0262c;
+        padding: 7px;
+    }
+    dd
+    {
+        border: thin #c0262c solid;
+        border-radius: 0 0 25px 25px;
+        margin-top: -3px;
+        margin-bottom: 30px;
+        padding: 20px 20px 0 ;
+        margin: 0;
+    }    
+    ol
+    {
+        list-style-type: none;
+        white-space: pre;
+        line-height: .9em;
+        /* definir a variavel de contagem */
+        counter-reset:contador;
+    }
+    ol li:before
+    {
+        color: #999999;
+        /* incrementar a variavel em 1*/
+        counter-increment: contador;
+        /* Usar o numero do contador como conteudo */
+        content: "Questão " counter(contador) " \00BB";
+    }
 </style>
 
 </head>
