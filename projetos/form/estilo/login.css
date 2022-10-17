@@ -7,10 +7,10 @@ form input{
 body
 {
     text-align: center;
-    background-color: #121214;    
+    background-color: #121214;   
 }
 header{
-    margin-top: -100px;
+    margin-top: 100px;
 }
 header img{
     width: 370px;
