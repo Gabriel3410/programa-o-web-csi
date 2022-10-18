@@ -52,6 +52,11 @@ form{
     background-position: left;
     background-repeat: no-repeat;  
 }
+.acima_input:focus{
+    color:#E1E1E6;
+    background-image: none; 
+    text-decoration: none;
+}
 
 .acima_input::placeholder{
     display: flex;
