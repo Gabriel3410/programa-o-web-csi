@@ -56,6 +56,7 @@ form{
     color:#E1E1E6;
     background-image: none; 
     text-decoration: none;
+    
 }
 
 .acima_input::placeholder{
@@ -78,8 +79,7 @@ form{
 
 .acima_input2::placeholder{
     display: flex;
-    padding-left: 48px;
-    
+    padding-left: 48px;    
 }
 
 .sobre_input
