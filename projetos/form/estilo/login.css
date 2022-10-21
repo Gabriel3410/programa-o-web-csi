@@ -32,13 +32,8 @@ form{
     margin-top: 50px;
 }
 /* Primeiro botão de email */
-
 .acima_input{
     margin-bottom: 0;
-    padding-right: 50px;
-}
-
-.acima_input{
     width: 400px;
     height: 38px;
     padding: 0;
@@ -50,23 +45,9 @@ form{
     background-position: left;
     background-repeat: no-repeat;  
 }
-.acima_input::placeholder{
-    display: flex;
-    padding-left: 48px;
-}
-
-.group1{
-
-}
-
 /* Segundo botão botão de senha */
-
 .acima_input2{
     margin-bottom: 0;
-    padding-right: 113px;
-}
-
-.acima_input2{
     width: 400px;
     height: 38px;
     padding: 0;
@@ -77,13 +58,8 @@ form{
     background-image:url(../image/lock-closed-outline.svg);
     background-position: left;
     background-repeat: no-repeat;  
+    color: #E1E1E6;
 }
-
-.acima_input2::placeholder{
-    display: flex;
-    padding-left: 48px;    
-}
-
 .sobre_input
 {
     margin-bottom: 0;
