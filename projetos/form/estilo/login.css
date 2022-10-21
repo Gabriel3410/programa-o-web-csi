@@ -31,15 +31,13 @@ header p{
 form{
     margin-top: 50px;
 }
+/* Primeiro botão de email */
 
 .acima_input{
     margin-bottom: 0;
     padding-right: 50px;
 }
-.acima_input2{
-    margin-bottom: 0;
-    padding-right: 113px;
-}
+
 .acima_input{
     width: 400px;
     height: 38px;
@@ -52,16 +50,20 @@ form{
     background-position: left;
     background-repeat: no-repeat;  
 }
-.acima_input:focus{
-    color:#E1E1E6;
-    background-image: none; 
-    text-decoration: none;
-    
-}
-
 .acima_input::placeholder{
     display: flex;
     padding-left: 48px;
+}
+
+.group1{
+
+}
+
+/* Segundo botão botão de senha */
+
+.acima_input2{
+    margin-bottom: 0;
+    padding-right: 113px;
 }
 
 .acima_input2{
