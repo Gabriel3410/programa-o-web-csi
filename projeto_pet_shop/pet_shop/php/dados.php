@@ -51,7 +51,6 @@ if($diaSemana !== null)
         echo "|{$diaSemana[$i]}|";
     }
 
-
 function dd($param)
 {
     echo '<pre>';
