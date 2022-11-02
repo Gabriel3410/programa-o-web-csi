@@ -1,3 +1,30 @@
 .redes{
     padding-left: 30px;
 }
+p:first-line{
+    text-decoration: none;
+}
+*
+{
+    font-family: 'Comfortaa';
+}
+a
+{
+    text-decoration: none;
+    color: rgb(207, 127, 7);
+}
+a:hover
+{
+    background-color:rgb(140, 3, 3);
+    color: white;
+}
+h1{
+    color:#c0262c;
+    font-size: 2.5em;
+    border-bottom: #c0262c solid thin;
+    padding-bottom: 7px;
+}
+h2
+{
+    font-size: 1.75em;
+}
