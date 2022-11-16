@@ -10,57 +10,17 @@
     <title>Banho e tosa confirmação!</title>
 </head>
 <body>
-    <h1>Confirmação de Banho e tosa!</h1>
-<?php
+<body>
+    <a href="index.html">Home</a>
+    <h1>Obrigado</h1>
+    <h2>Seu formulário foi enviado.</h2>
+    <p>Nossa equipe irá conferir a sua solicitação e enviará uma confirmação para seu email.</p>
+    <p>Aproveite agora mesmo a nossa dica em destaque:</p>
+    <p>
+    <img src="../multimidia/anuncio_pet3.jpg" alt="Anuncio de Petshop">
+    Eu já falei aqui isso e em outros momentos e vou continuar falando: <br> Se a comida tem a ver com prazer, com momentos de descontração e até relaxamento, por que não aproveitar isso para chamar a atenção das pessoas?
 
-$nome= $_POST["dono"];
-$endereco= $_POST["endereco"];
-$cep= $_POST["cep"];
-$email= $_POST["email_dono"];
-$tel= $_POST["tel_dono"];
-$nomeAnimal= $_POST["nome_animal"];
-$porteAnimal= $_POST["porte_animal"];
-$tipoDeTosa= $_POST["tipo_tosa"];
-$observacoes= $_POST["observacoes"];
-$diaSemana= null;
-$enviar= $_POST["enviar"];
-
-if ($enviar=="enviar")
-{
-    echo " <br> Horário agendado com sucesso! <br>";
-    
-}
-
-if(isset($_POST["dia_semana"]))
-    $diaSemana = $_POST["dia_semana"];
-
-
-echo " <br>Seu nome é: ". $nome. "<br>";
-echo "<br>Seu endereço: ". $endereco. "<br>";
-echo "<br>Seu CEP: ". $cep. "<br>";
-echo "<br>Seu Email: ". $email. "<br>";
-echo "<br>Seu tel: ". $tel. "<br>";
-echo "<br>O nome do seu animal: ". $nomeAnimal. "<br>";
-echo "<br>O porte do seu animal: ". $porteAnimal. "<br>";
-echo "<br>Tipo da tosa escolhida: ". $tipoDeTosa. "<br>";
-echo "<br>Observações: ". $observacoes. "<br>";
-echo "<br>Os dias da semana escolhidos ";
-if($diaSemana !== null)
-    for($i = 0; $i< count($diaSemana); $i++ )
-    {
-        echo "|{$diaSemana[$i]}|";
-    }
-
-function dd($param)
-{
-    echo '<pre>';
-    print_r($param);
-    echo '</pre>';
-    die();
-}
-?>  
-<br>
-<br>
-<a id="voltar" href="../index.html">Voltar</a>
+    Uma propaganda para vender cachorro quente que tire um sorriso do cliente com certeza tem chances, por isso aposte nesse caminho. O melhor de tudo é que não precisa de nada complicado para conseguir isso, dá para fazer de forma simples.
+    </p>    
 </body>
 </html>
